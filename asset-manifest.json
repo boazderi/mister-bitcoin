@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mister-bitcoin/static/css/main.95d90aeb.css",
+    "main.js": "/mister-bitcoin/static/js/main.9699bf31.js",
+    "static/js/787.28cb0dcd.chunk.js": "/mister-bitcoin/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/mister-bitcoin/index.html",
+    "main.95d90aeb.css.map": "/mister-bitcoin/static/css/main.95d90aeb.css.map",
+    "main.9699bf31.js.map": "/mister-bitcoin/static/js/main.9699bf31.js.map",
+    "787.28cb0dcd.chunk.js.map": "/mister-bitcoin/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95d90aeb.css",
+    "static/js/main.9699bf31.js"
+  ]
+}
