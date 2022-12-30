@@ -1,0 +1,68 @@
+.contacts {
+  padding: 10px;
+
+  .list-member {
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    border-radius: 6px;
+    background: linear-gradient(90deg, rgb(239, 239, 239), rgb(226, 226, 226));
+    overflow: hidden;
+    
+    .contact-img-and-name {
+      gap: 10px;
+      text-decoration: none;
+      cursor: pointer;
+      color: inherit;
+      width: 93%;
+    }
+
+    .delete-btn {
+      right: 35px;
+      cursor: pointer;
+      transform: translateX(50px);
+    }
+
+    &:hover {
+      opacity: 0.8;
+      .delete-btn {
+        transform: translateX(0px);
+        transition: 0.3s;
+        background-color: gray;
+        padding: 0 4px;
+        border-radius: 5px;
+        &:hover{
+          color: black;
+          opacity: 80%;
+        }
+      }
+    }
+  }
+
+  .contacts-txt-filter {
+    border-radius: 8px;
+    border: 1px solid dimgray;
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  .add-contact {
+    a {
+      color: white;
+    }
+
+    background-color: royalblue;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}

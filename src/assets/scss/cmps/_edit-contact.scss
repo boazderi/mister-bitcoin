@@ -1,0 +1,20 @@
+.edit-contact{
+    max-width: 80%;
+    height: 400px;
+    border: 2px double rgb(121, 121, 121);
+    border-radius: 15px;
+    margin: auto;
+    .edit-form-container{
+        gap: 15px;
+        .form-input-container{
+            gap: 10px;
+        }
+        .form-add-contact-btn{
+            background-color: rgb(17, 77, 188);
+            color: white;
+            padding: 10px;
+            border: 0;
+            border-radius: 6px;
+        }
+    }
+}
